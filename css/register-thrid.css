@@ -1,0 +1,51 @@
+.main{
+    padding-bottom: 48px;
+}
+#main-telephone .telephone{
+    width: 332px;
+    margin: 0 auto;
+}
+.telephone-box-tel{
+    color: #ff6700;
+}
+#main-form{
+    width: 332px;
+    margin: 0 auto;
+}
+#main-form .main-form-title{
+    padding-bottom:10px; 
+}
+.main-form-input{
+    padding: 8px 0;
+}
+.main-form-input #pwd{
+    width: 330px;
+    height: 40px;
+    border: solid 1px #e8e8e8;
+    box-sizing: border-box;
+    padding-left: 10px;
+}
+.main-form-input2{
+    padding: 6px 0;
+
+}
+.main-form-input2 #repwd{
+    padding: 6px 0;
+    padding-left: 10px;
+    width: 330px;
+    height: 40px;
+    border: solid 1px #e8e8e8;
+    box-sizing: border-box;
+}
+.main-form-condition{
+    padding: 6px 0;
+}
+.main-form-button{
+    padding: 12px 0;
+}
+.main-form-button .btn{
+    width: 330px;
+    height: 42px;
+    border: 0;
+    background-color: #ff6700;
+}

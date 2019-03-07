@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/register-common.css">
+    <link rel="stylesheet" href="css/register-thrid.css">
+</head>
+<body>
+    <div id="main_wrapper">
+        <div class="main container"> 
+            <div id="main-logo">
+                <div class="logo">
+                    <img src="images/img2/milogo.png" alt="">
+                </div>
+            </div>
+            <div id="main-title">
+                <div class="main-title-title">
+                    <h2>注册小米账号</h2>
+                </div>
+            </div>
+            <div id="main-telephone">
+                <div class="telephone">
+                    <p class="telephone-box">
+                        你注册的手机号为<span class="telephone-box-tel">15979632782</span>
+                    </p>
+                </div>
+            </div>
+            <form action="##" id="main-form">
+                <div class="main-form-title">
+                    <p>请设置您的密码:</p>
+                </div>
+                <div class="main-form-input">
+                    <input type="text" id="pwd" name="pwd" placeholder="请输入密码">
+                </div>
+                <div class="main-form-input2">
+                    <input type="text" name="repwd" id="repwd" placeholder="请输入确认密码">
+                </div>
+                <div class="main-form-condition">
+                    <p class="condition">密码长度8~16位,数字、字母、字符至少包含两种</p>
+                </div>
+                <div class="main-form-hint">
+                    <p class="hint">
+                        <i class="user_info"></i>
+                        <span></span>
+                    </p>
+                </div>
+                <div class="main-form-button">
+                    <button class="btn" type="submit">提交</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <footer></footer>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $('footer').load('register.html #footer_wrapper')
+    </script>
+</body>
+</html>

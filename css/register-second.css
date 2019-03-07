@@ -1,0 +1,59 @@
+.main{
+    min-height: 480px;
+}
+#main-telephone{
+    width: 330px;
+    margin: 16px auto;
+}
+#main-telephone .telephone-box{
+    color: #ff9100;
+}
+.form{
+    width: 330px;
+    margin: 0 auto;
+}
+#main-from .input-box .txt{
+    float: left;
+    width: 200px;
+    height: 40px;
+    border: solid 1px #e8e8e8;
+    padding-left: 10px;
+}
+#main-from .input-box{
+    padding: 24px 0;
+}
+#main-from .input-box .clock{
+    float: left;
+    width: 101px;
+    height: 40px;
+    line-height: 40px;
+    border: solid 1px #e8e8e8;
+    text-align: center;
+    margin-left: 10px;
+}
+#main-from .btn-next{
+    padding: 6px 0;
+}
+#main-from .btn-next .next{
+    display: block;
+    width: 330px;
+    height: 42px;
+    line-height: 42px;
+    background-color: #ff6700;
+    text-align: center;
+    cursor: pointer;
+    color: #fff;
+}
+#main-from .btn-back .back{
+    display: block;
+    width: 328px;
+    height: 40px;
+    line-height: 42px;
+    text-align: center;
+    border: solid 1px #dddddd;
+    cursor: pointer;
+    color: #7c7c7c;
+}
+#main-from .btn-back{
+    padding: 4px 0;
+}
