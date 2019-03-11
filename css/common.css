@@ -1,0 +1,90 @@
+.container{
+    width: 1228px;
+    margin: 0 auto;
+}
+#top_wrapper{
+    min-height: 40px;
+    background-color: #333333;
+}
+.top{
+    min-height: 40px;
+}
+.top a{
+    font-size: 10px;
+}
+.top-box-left{
+    float: left;
+}
+.left-a-type{
+    display: inline-block;
+    color: #b0b0b0;
+    line-height: 40px;
+}
+.left-a-type:hover{
+    color: #ffffff;
+}
+.left-bar{
+    display: inline-block;
+    color: #40403b;
+    margin: 0 7px;
+}
+.left-a-app{
+    position: relative;
+}
+.app-img-box{
+    position:absolute;
+    width: 124px;
+    top: 40px;
+    left: 50%;
+    margin-left: -55px;
+    padding: 18px 0 14px;
+    box-shadow: 0px 1px 5px #aaa;
+    background: #ffffff;
+    display: none;
+}
+.app-img-box-img{
+    display: block;
+    width: 90px;
+    height: 90px;
+    margin: 0 auto;
+}
+.app-img-box-title{
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color: #333335;
+}
+.top-box-right{
+    float: right;
+    margin-right: 25px;
+}
+.right-a-type{
+    color: #b0b0b0;
+    line-height: 40px;
+}
+.right-a-type:hover{
+    color: #ffffff;
+}
+.right-bar{
+    color: #40403b;
+    margin: 0 5px;
+}
+.top-shop-car{
+    float: right;
+}
+.shop-car-data{
+    display: inline-block;
+    width: 120px;
+    line-height: 40px;
+    background-color: #424242;
+    text-align: center;
+    font-size: 10px;
+    color: #b0b0b0;
+}
+.shop-car-img{
+    width: 18px;
+    height: 14px;
+    border: 0;
+    margin-bottom: -2px;
+}
+

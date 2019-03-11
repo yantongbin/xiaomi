@@ -49,3 +49,17 @@
     border: 0;
     background-color: #ff6700;
 }
+.main-form-hint p{
+    display: none;
+}
+.main-form-hint .icon-err{
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    background-position: -49px 0;
+    margin-bottom: -2px;
+}
+.main-form-hint .title{
+    color: #ff6666;
+}
+
